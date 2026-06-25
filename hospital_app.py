@@ -197,9 +197,9 @@ with st.form("triage_form"):
     """, unsafe_allow_html=True)
 
     ch1, ch2, ch3, _ = st.columns(4)
-    with ch1: hypertension  = st.checkbox("🩺 CODENO21")
-    with ch2: heart_disease = st.checkbox("❤️ CODENO22")
-    with ch3: asthma        = st.checkbox("💨 CODENO23")
+    with ch1: hypertension  = st.checkbox("🩺 hypertension")
+    with ch2: heart_disease = st.checkbox("❤️ heartdisease")
+    with ch3: asthma        = st.checkbox("💨 asthma")
 
     st.markdown("<br>", unsafe_allow_html=True)
 
