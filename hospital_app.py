@@ -177,9 +177,9 @@ with st.form("triage_form"):
 
     col_temp, col_hr = st.columns(2)
     with col_temp:
-        temperature_level = st.selectbox("CODENO18", options=list(temp_map.keys()), index=1)
+        temperature_level = st.selectbox("temperaturelevel", options=list(temp_map.keys()), index=1)
     with col_hr:
-        heart_rate_level  = st.selectbox("CODENO19", options=list(hr_map.keys()), index=1)
+        heart_rate_level  = st.selectbox("heartratelevel", options=list(hr_map.keys()), index=1)
 
     st.markdown("<br>", unsafe_allow_html=True)
 
