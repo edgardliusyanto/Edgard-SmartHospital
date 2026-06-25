@@ -75,13 +75,13 @@ DEPT_INFO = {
     },
     'General Medicine': {
         'icon':'🩺','color':'#059669','bg':'#d1fae5','border':'#6ee7b7',
-        'desc':'CODENO37',
+        'desc':'handle general health cconcerns and non specialist',
         'next':['Visit Level 1, Wing A','Estimated wait: 10–15 min','Registration desk is open 24/7']
     },
     'Dermatology': {
         'icon':'🔬','color':'#b45309','bg':'#fef9c3','border':'#fde68a',
-        'desc':'CODENO38',
-        'next':['Visit Level 2, Wing D','Estimated wait: 15–20 min','Bring photos of affected area if possible']
+        'desc':'handle general health concerns and non specialist condition',
+         'next':['Visit Level 2, Wing D','Estimated wait: 15–20 min','Bring photos of affected area if possible']
     },
 }
 
