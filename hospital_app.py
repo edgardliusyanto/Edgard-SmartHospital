@@ -65,12 +65,12 @@ DEPT_INFO = {
     },
     'Gastroenterology': {
         'icon':'🫃','color':'#d97706','bg':'#fef3c7','border':'#fcd34d',
-        'desc':'CODENO35',
+        'desc':'specialises in digestive system and abdonial condition',
         'next':['Visit Level 1, Wing C','Estimated wait: 10–20 min','Avoid eating before consultation']
     },
     'Neurology': {
         'icon':'🧠','color':'#7c3aed','bg':'#ede9fe','border':'#c4b5fd',
-        'desc':'CODENO36',
+        'desc':'specialises in brain spine and nervous system condition ',
         'next':['Visit Level 4, Wing A','Estimated wait: 25–35 min','Bring list of current medications']
     },
     'General Medicine': {
