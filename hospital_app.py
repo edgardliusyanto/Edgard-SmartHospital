@@ -129,15 +129,15 @@ with st.form("triage_form"):
         headache         = st.checkbox("🤕 headache ")
         chest_pain       = st.checkbox("💔  chest pain")
     with c3:
-        stomach_pain     = st.checkbox("🤢  stomach_pain")
-        shortness_breath = st.checkbox("😮‍💨  shortness_breath")
+        stomach_pain     = st.checkbox("🤢  stomachpain")
+        shortness_breath = st.checkbox("😮‍💨  shortnessbreath")
     with c4:
-        nausea_vomiting  = st.checkbox("🤮  nausea_vomiting")
+        nausea_vomiting  = st.checkbox("🤮  nauseavomiting")
         dizziness        = st.checkbox("😵  dizziness")
 
     c5, _, _, _ = st.columns(4)
     with c5:
-        skin_rash = st.checkbox("🔴  CODENO13")
+        skin_rash = st.checkbox("🔴  skinrash")
 
     st.markdown("<br>", unsafe_allow_html=True)
 
