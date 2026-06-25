@@ -99,7 +99,7 @@ st.markdown("""
         smart hospital
     </div>
     <div style="font-size:18px;color:rgba(255,255,255,0.85);font-weight:400;">
-        CODENO3
+        find the right apartemen for your syntem
     </div>
 </div>
 """, unsafe_allow_html=True)
