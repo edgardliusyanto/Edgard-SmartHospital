@@ -201,7 +201,7 @@ with st.form("triage_form"):
     with ch2: heart_disease = st.checkbox("❤️ heartdisease")
     with ch3: asthma        = st.checkbox("💨 asthma")
 
-    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("<br>", unsafe_allow_html=True)v
 
     # Section 5 — Patient Info
     st.markdown("""
@@ -329,7 +329,7 @@ if submitted:
             <!-- COLOR7 -->
             <div style="margin-top:20px;background:#e90ee9;border:1px solid #ff0505;
                         border-radius:10px;padding:12px 14px;font-size:12px;color:#1af250;">
-                <strong>Model:</strong>CODENO32<br>
+                <strong>Model:</strong>knn (k=7) 102,000 patient - 99.5% accuracy <br>
                 <strong>Powered by:</strong> Future Classroom ML
             </div>
         </div>
